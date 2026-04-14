@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="福鼎白茶数字展示网站" />
+  <title>福鼎白茶数字展示网站 - 互动体验</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="index.html"><span class="brand-mark">茶</span><span>福鼎白茶数字展示网站</span></a>
+    <nav class="nav-links" aria-label="主导航">
+      <a data-nav href="index.html">首页</a>
+      <a data-nav href="heritage.html">非遗脉络</a>
+      <a data-nav href="craft.html">工艺与茶品</a>
+      <a data-nav href="travel.html">茶旅线路</a>
+      <a data-nav href="experience.html">互动体验</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="container">
+<section class="page-hero">
+  <span class="kicker">互动体验</span>
+  <h1>让游客从“看过”，走到“愿意分享”</h1>
+  <p>本页通过知识问答与主题海报预览两种轻量交互形式，增强信息浏览后的参与感与分享意愿，丰富网站的整体体验层次。</p>
+</section>
+
+<section class="section">
+  <div class="grid-2">
+    <article class="card quiz-box" id="quiz-box">
+      <div>
+        <span class="tag">知识问答</span>
+        <h3 id="quiz-question">题目加载中…</h3>
+        <p id="quiz-progress" class="note"></p>
+      </div>
+      <div id="quiz-options" class="quiz-options"></div>
+      <div id="quiz-feedback" class="feedback"></div>
+      <button id="quiz-next" class="btn btn-primary" type="button">下一题</button>
+    </article>
+    <article class="card">
+      <span class="tag">海报生成器</span>
+      <h3>茶旅主题海报预览</h3>
+      <p>选择茶型、场景和色调后，右侧海报会切换到不同背景图，用以展示福鼎白茶在数字媒介中的视觉表达方式。</p>
+      <div class="controls">
+        <label>主题茶型
+          <select id="poster-tea">
+            <option>白毫银针</option>
+            <option>白牡丹</option>
+            <option>贡眉</option>
+            <option>寿眉</option>
+          </select>
+        </label>
+        <label>体验场景
+          <select id="poster-scene">
+            <option value="mountain">茶山晨雾</option>
+            <option value="craft">制茶工坊</option>
+            <option value="people">采茶人物</option>
+            <option value="route">俯瞰茶园</option>
+          </select>
+        </label>
+        <label>色调氛围
+          <select id="poster-tone">
+            <option value="morning">晨光绿</option>
+            <option value="sunset">落日金</option>
+            <option value="mist">山岚灰</option>
+          </select>
+        </label>
+      </div>
+      <div id="tour-poster" class="poster-real" style="margin-top:16px;"></div>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="photo-grid tight">
+    <article class="visual-card">
+      <div class="media-frame"><img src="assets/media/tea_types_grid.jpg" alt="白茶种类图谱"></div>
+      <div class="media-meta">
+        <strong>茶品认知图谱</strong>
+        <span>通过图谱式呈现不同茶品形态，帮助浏览者在互动之后进一步巩固知识点。</span>
+      </div>
+    </article>
+    <article class="visual-card">
+      <div class="media-frame"><img src="assets/media/tea_cake_wood.jpg" alt="木盘上的紧压白茶饼"></div>
+      <div class="media-meta">
+        <strong>茶品细节特写</strong>
+        <span>茶品近景能够强化白茶的外观质感，是数字海报中较具识别度的视觉元素。</span>
+      </div>
+    </article>
+    <article class="visual-card">
+      <div class="media-frame"><img src="assets/media/aged_tea_cake.jpg" alt="圆形老白茶饼特写"></div>
+      <div class="media-meta">
+        <strong>茶礼展示延展</strong>
+        <span>茶饼、礼盒与伴手礼等元素能够延伸福鼎白茶的文化展示内容，拓宽页面表达维度。</span>
+      </div>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>本网站围绕白茶制作技艺（福鼎白茶制作技艺）的历史脉络、工艺流程、代表茶品与茶旅体验展开，旨在以数字化方式呈现福鼎白茶的非遗价值与地方特色。</p>
+    <p class="note">页面内容涵盖非遗基础信息、工艺展示、茶品图谱、路线浏览与互动体验，可用于白茶知识普及、课程展示与地方文化传播。</p>
+  </div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
